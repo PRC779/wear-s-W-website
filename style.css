@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Kaushan+Script&family=Poppins:wght@600&display=swap');
+*{
+    font-family: 'Edu SA Beginner', cursive;
+     font-family: 'Kaushan Script', cursive;
+     font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-transform: capitalize;
+	transition: all .3s linear;   
+}
+:root {
+    --page-margin: min(2rem, 5vw);
+   color: #444;
+ }
+ a{
+    text-decoration: none;
+}
+html{
+	overflow-x: hidden;
+}
+.container-head{
+    width: 100vw;
+    overflow-x: none;
+}
+.navcontainer-head{
+    width: 100vw;
+    height: 65px;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+}
+.list-logo-text-etc {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menuitem{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 10%;
+}
+.navlogo{
+    font-size: 2vmax;
+    color:white;
+    font-family: cursive;
+    font-weight: bolder;   
+}
+.web-head-name{
+    color: white;
+    font-size: 15px;   
+}
+.menuitem2{
+    margin-right: 25px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.mainMenu{
+    margin-top: -1px;
+    width: 200px;
+    height: 780px;
+    background-color: #000;
+    margin-left: -22px;
+}
+.hamburger-text {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 45px;
+}
+#me{
+    margin-left: auto;
+}
+/* head humbuger logo end */
+.maincontent{
+    background-color: white;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homecard{
+    width: 87vw;
+    height: 80vh;
+   background-color : rgba(161, 161, 161, 0.753);   /*antiquewhite*/
+   display: flex;
+   border: 1px solid black;
+   box-shadow: 20px 20px 50px grey;    
+}
+.homecard:hover{
+    width: 86vw;
+    height: 79vh;
+}
+.divhome{
+    text-align: center;
+    color:black;
+    margin-left: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+}
+.home-text{
+    margin-left: center;
+    font-size: 2vmax;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-p{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 2vmin;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.offerbar { 
+    text-align: center; 
+    font-family: "Times New Roman"; 
+} 
+.offerbar-set { 
+  width: auto;
+  height: 5vh;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+} 
+.offerbar-text { 
+  font-size: 20px; 
+  font-weight: bold; 
+  color: white;  
+}  
+.btn{
+    margin-bottom: 50px;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+#btn{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black 1 px ;
+    border-radius: 20px;
+    background-color: rgba(161, 161, 161, 0.753);
+}
+#btn:hover{
+    background-color:white;
+}
+.btn a {
+    width: 50%;
+    text-decoration: none;
+    display: inline-block;
+	padding: 16 px 0;
+	margin: 0 10px  ;
+	font-size: 2vmax;
+	border: .6px solid #fff;
+    font-family: 'Kaushan Script', 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
+.btn a:hover{
+    color: #000;
+    background-color:  rgba(161, 161, 161, 0.753); 
+}
+/* home page element end */
+.card-section {
+    margin-left: 50px;
+    margin-right: 55px;
+    display: grid;
+    grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+    
+    & > * {
+      grid-column: center;
+    }
+  }
+  .cards-wrapp {
+    grid-column: center-start / -1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-right: var(--page-margin);
+  }
+  .card-out {
+      display: grid;
+      place-content: center;
+      background-color:rgba(247,250,252,255);
+      font-size: 1.5rem;
+      height: 200px;
+      width: 150px;    
+    }
+ .card-in {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .card-in:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  /* bulkcatrgory-card-item */
+.conta-list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+/* card-hoddies section end */
+.servicegrid{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color:  rgba(161, 161, 161, 0.753);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow:auto;
+}
+.sercard{
+    height: 40vh;
+    width: 30vw;
+    background-color:  rgba(161, 161, 161, 0.753);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+#sercard1{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#sercard1:hover{
+    background-color: white;
+}
+#sercard2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#sercard2:hover{
+    background-color: white;
+}
+#sercard3{
+    border-bottom: 1px solid black;
+}
+#sercard3:hover{
+    background-color: white;
+}
+#sercard4{
+    border-right: 1px solid black;
+}
+#sercard4:hover{
+    background-color: white;
+}
+#sercard5{
+    border-right: 1px solid black;
+}
+#sercard5:hover{
+    background-color: white;
+}
+#sercard6{
+    border-right: 1px solid black;
+}
+#sercard6:hover{
+    background-color: white;
+}
+.serimg1{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serh{
+    color: #000;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    height: 40%;
+}
+.serpc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serp{
+    color: grey;
+    font-size:95%;
+    font-weight: lighter;
+    margin-top: 30px;
+    width: 50%;
+}
+.serimg2{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/pedicure.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg3{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/facial-massage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg4{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/nail-polish.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg5{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/moisturizer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg6{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/wax.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* service Section end */
+.contact{
+    height: 100vh;
+    width: 100vw;
+}
+.contactcontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap;
+}
+.contactform{
+    height: 100vh;
+    width: 62%; 
+    padding: 4rem;
+}
+.contactaddr{
+    height: 100vh;
+    width: 38%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textf{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black 1 px ;
+    border-radius: 20px;
+}
+.textf:hover{
+    background-color:rgba(161, 161, 161, 0.753);
+}
+.concard{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.concard:hover{
+   background-color: rgba(161, 161, 161, 0.753);
+}
+.addimg{
+    height: 30px;
+    width: 30px;
+}
+/*Contact section end*/
+
+ /* Responsive styles*/
+ @media (max-width: 849px) {
+    .cards-wrapp-top{
+      display: none;
+      width: none;
+      height: none;
+    }
+    .card-section-top{
+       display: flex; 
+      width: none;
+      height: none;       
+    }
+}
+  @media (max-width: 600px) {
+    #me{
+        display: none;
+    }
+    .navlogo{
+        font-size: 5vw;
+    }
+    .homecard{
+        width: 90vw;
+        height: 50vh;
+    }
+    .home-p{
+        font-size: 2vw;
+    }
+    .sercard{
+        height: 40vh;
+        width: 80vw;
+        background-color:rgba(161, 161, 161, 0.753);
+        margin: 10px;
+        border-radius: 25px;
+        border: none;
+    }
+    .servicegrid{
+        background-color:white;
+     }
+     .contactform{
+        height: 60vh;
+        width: 100vw; 
+        padding: 2rem;   
+    }
+    .contactaddr{
+        height: 100vh;
+        width: 100vw;
+    }
+  } 
+  @media (min-width: 850px) {
+    .cards-wrapp-top{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(10px,1fr));
+      margin-left: 170px;
+      margin-right: 190px;
+      }
+      .card-section-top{
+        width: 100%;
+        height: 250px;
+        align-content: center;
+        margin-left:center;
+      }   
+  }
+@media (max-width: 768px){
+	.mainMenu{
+		display: none;
+        background-color: black;
+    }
+	.mainMenu.hamburger{
+		display: block;
+	}
+}
+@media (min-width: 769px){
+	.mainMenu{
+		display: none;
+	}
+    .mainMenu.hamburger{
+        display: block;
+    }
+	 #toggle-bar{
+        color: #000;
+	} 
+}
